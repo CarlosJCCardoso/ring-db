@@ -11,3 +11,10 @@ There are three basic operations in this database:
 - A node wants to exit the database attributing his objects to other nodes.
 
 Nodes can also be connected via a chord, an imaginary unidirectional connection, where messages are sent via UDP.
+
+In the image below the objects are represented as red squares and the nodes are represented as blue circles. The regular connections are represented as solid lines and the chords are represented as dashed lines.
+
+The arrows in the image represent the flow of messages either sent via TCP, for the regular connections, or via UDP for the chord "connection".
+
+![ring-structure](https://user-images.githubusercontent.com/38881533/194942604-4c4d26e9-58b8-4d3b-b16e-e07f12ba811a.png)
+
